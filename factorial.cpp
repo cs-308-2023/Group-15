@@ -1,9 +1,10 @@
+#include <iostream>
 #include "functions.h"
 
 int factorial(int n){
     // check for negative numbers
     if (n<0){
-       cout<<"Error: Please Enter a number greater than zero."<<endl;
+       printf("Error: Please Enter a number greater than zero.\n");
        exit(0);
      }
     if(n!=1){

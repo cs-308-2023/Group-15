@@ -2,5 +2,5 @@
 #include "functions.h"
 using namespace std;
 void print_hello(){
-   cout<<"Hello World to CS LAP course!";
+   printf("Hello World to CS LAP course!");
 }

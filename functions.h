@@ -1,2 +1,3 @@
 void print_hello();
-int factorial(int n);
+int factorial(int);
+int gcd_nonrec(int, int);

@@ -17,6 +17,7 @@ int gcd_nonrec(int a, int b) {
 }
 
 int main() {
-    cout << gcd_nonrec(180, 54);
+    int x=56, y=98;
+    cout << gcd_nonrec(x,y) << endl;
     return 0;
 }
